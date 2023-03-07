@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "Mq9qKjE8DjDVCfoJgtBJFg3XX2jJPi54mn4k7ojW/NIi1nD6QvjMwKfnjPd99WWfbfGyvgW3JPa2cCj4Je5aag==",
+  "success": true,
+  "projectFilePath": "H:\\LocalDev\\Com\\ArduinoUploaderTool\\ArduinoUploaderTool\\ArduinoUploaderTool.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\teseghiri\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\7.0.0\\runtime.linux-arm.runtime.native.system.io.ports.7.0.0.nupkg.sha512",
+    "C:\\Users\\teseghiri\\.nuget\\packages\\runtime.linux-arm64.runtime.native.system.io.ports\\7.0.0\\runtime.linux-arm64.runtime.native.system.io.ports.7.0.0.nupkg.sha512",
+    "C:\\Users\\teseghiri\\.nuget\\packages\\runtime.linux-x64.runtime.native.system.io.ports\\7.0.0\\runtime.linux-x64.runtime.native.system.io.ports.7.0.0.nupkg.sha512",
+    "C:\\Users\\teseghiri\\.nuget\\packages\\runtime.native.system.io.ports\\7.0.0\\runtime.native.system.io.ports.7.0.0.nupkg.sha512",
+    "C:\\Users\\teseghiri\\.nuget\\packages\\runtime.osx-arm64.runtime.native.system.io.ports\\7.0.0\\runtime.osx-arm64.runtime.native.system.io.ports.7.0.0.nupkg.sha512",
+    "C:\\Users\\teseghiri\\.nuget\\packages\\runtime.osx-x64.runtime.native.system.io.ports\\7.0.0\\runtime.osx-x64.runtime.native.system.io.ports.7.0.0.nupkg.sha512",
+    "C:\\Users\\teseghiri\\.nuget\\packages\\system.io.ports\\7.0.0\\system.io.ports.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
