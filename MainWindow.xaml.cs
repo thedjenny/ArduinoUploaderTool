@@ -101,10 +101,12 @@ namespace ArduinoUploaderTool
             proc.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
             proc.StartInfo.CreateNoWindow = true;
             progressValue();
+            Mouse.OverrideCursor = Cursors.Wait;
             proc.Start();
             proc.WaitForExit();
             if (proc.HasExited)
             {
+                Mouse.OverrideCursor = null;
                 progress.Value = 100;
                 return true;
             }
@@ -143,9 +145,10 @@ namespace ArduinoUploaderTool
             {
                 
                 string filepath = Directory.GetCurrentDirectory() + "\\src-gen\\code\\code.ino";
-                Debug.WriteLine(filepath);
-                
-               string command = "arduino-cli compile --upload -p " + port + " --fqbn arduino:avr:uno" + filepath + "\"";
+                // Debug.WriteLine(filepath);
+                Debug.WriteLine("port: " + PortName.Text);
+               string command = "arduino-cli compile --upload -p " + PortName.Text + " --fqbn arduino:avr:uno \"" + filepath + "\"";
+                Debug.WriteLine(command);
                 if (run_cmd(command))
                     MessageBox.Show("Code uploaded successfully !");
                 else
@@ -160,6 +163,7 @@ namespace ArduinoUploaderTool
             {
                 PortName.Text = "";
                 open_button.IsEnabled=true;
+                isOpen = false;
             }
         }
     }
